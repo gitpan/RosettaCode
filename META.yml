@@ -33,7 +33,7 @@ requires:
 resources:
   homepage: https://github.com/ingydotnet/rosettacode-pm
   repository: https://github.com/ingydotnet/rosettacode-pm.git
-version: 0.0.1
+version: 0.0.2
 x_Dist_Zilla:
   perl:
     version: 5.014002
