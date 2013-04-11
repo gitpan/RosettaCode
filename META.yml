@@ -33,7 +33,7 @@ requires:
 resources:
   homepage: https://github.com/ingydotnet/rosettacode-pm
   repository: https://github.com/ingydotnet/rosettacode-pm.git
-version: 0.0.2
+version: 0.0.3
 x_Dist_Zilla:
   perl:
     version: 5.014002
@@ -106,6 +106,10 @@ x_Dist_Zilla:
       class: Dist::Zilla::Plugin::Git::NextVersion
       name: '@INGY/Git::NextVersion'
       version: 2.012
+    -
+      class: Dist::Zilla::Plugin::ExecDir
+      name: '@INGY/ExecDir'
+      version: 4.300033
     -
       class: Dist::Zilla::Plugin::ReadmeFromPod
       name: '@INGY/ReadmeFromPod'

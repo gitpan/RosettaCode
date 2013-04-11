@@ -60,7 +60,7 @@
          "web" : "https://github.com/ingydotnet/rosettacode-pm"
       }
    },
-   "version" : "0.0.2",
+   "version" : "0.0.3",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.014002"
@@ -150,6 +150,11 @@
             "class" : "Dist::Zilla::Plugin::Git::NextVersion",
             "name" : "@INGY/Git::NextVersion",
             "version" : "2.012"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::ExecDir",
+            "name" : "@INGY/ExecDir",
+            "version" : "4.300033"
          },
          {
             "class" : "Dist::Zilla::Plugin::ReadmeFromPod",
