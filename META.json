@@ -57,7 +57,7 @@
          "web" : "https://github.com/ingydotnet/rosettacode-pm"
       }
    },
-   "version" : "0.0.4",
+   "version" : "0.0.5",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.014002"
