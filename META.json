@@ -27,15 +27,12 @@
       },
       "runtime" : {
          "requires" : {
-            "App::Cmd" : "0.318",
             "App::Cmd::Setup" : "0",
-            "HTTP::Request" : "6.00",
-            "IO::All" : "0.46",
-            "MediaWiki::Bot" : "5.005005",
-            "Mo" : "0.33",
+            "IO::All" : "0",
+            "MediaWiki::Bot" : "0",
+            "Mo" : "0",
             "Module::Pluggable" : "0",
-            "RosettaCode::Command" : "0",
-            "YAML::XS" : "0.41",
+            "YAML::XS" : "0",
             "constant" : "0",
             "perl" : "v5.14.0",
             "utf8" : "0"
@@ -60,7 +57,7 @@
          "web" : "https://github.com/ingydotnet/rosettacode-pm"
       }
    },
-   "version" : "0.0.3",
+   "version" : "0.0.4",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.014002"
@@ -68,132 +65,127 @@
       "plugins" : [
          {
             "class" : "Dist::Zilla::Plugin::Git::GatherDir",
-            "name" : "@INGY/Git::GatherDir",
+            "name" : "@Filter/Git::GatherDir",
             "version" : "2.012"
          },
          {
             "class" : "Dist::Zilla::Plugin::CheckPrereqsIndexed",
-            "name" : "@INGY/CheckPrereqsIndexed",
+            "name" : "@Filter/CheckPrereqsIndexed",
             "version" : "0.008"
          },
          {
             "class" : "Dist::Zilla::Plugin::CheckExtraTests",
-            "name" : "@INGY/CheckExtraTests",
+            "name" : "@Filter/CheckExtraTests",
             "version" : "0.011"
          },
          {
             "class" : "Dist::Zilla::Plugin::PruneCruft",
-            "name" : "@INGY/@Filter/PruneCruft",
+            "name" : "@Filter/@Filter/PruneCruft",
             "version" : "4.300033"
          },
          {
             "class" : "Dist::Zilla::Plugin::ManifestSkip",
-            "name" : "@INGY/@Filter/ManifestSkip",
+            "name" : "@Filter/@Filter/ManifestSkip",
             "version" : "4.300033"
          },
          {
             "class" : "Dist::Zilla::Plugin::MetaYAML",
-            "name" : "@INGY/@Filter/MetaYAML",
+            "name" : "@Filter/@Filter/MetaYAML",
             "version" : "4.300033"
          },
          {
             "class" : "Dist::Zilla::Plugin::License",
-            "name" : "@INGY/@Filter/License",
+            "name" : "@Filter/@Filter/License",
             "version" : "4.300033"
          },
          {
             "class" : "Dist::Zilla::Plugin::Readme",
-            "name" : "@INGY/@Filter/Readme",
+            "name" : "@Filter/@Filter/Readme",
             "version" : "4.300033"
          },
          {
             "class" : "Dist::Zilla::Plugin::ExecDir",
-            "name" : "@INGY/@Filter/ExecDir",
+            "name" : "@Filter/@Filter/ExecDir",
             "version" : "4.300033"
          },
          {
             "class" : "Dist::Zilla::Plugin::ShareDir",
-            "name" : "@INGY/@Filter/ShareDir",
+            "name" : "@Filter/@Filter/ShareDir",
             "version" : "4.300033"
          },
          {
             "class" : "Dist::Zilla::Plugin::MakeMaker",
-            "name" : "@INGY/@Filter/MakeMaker",
+            "name" : "@Filter/@Filter/MakeMaker",
             "version" : "4.300033"
          },
          {
             "class" : "Dist::Zilla::Plugin::Manifest",
-            "name" : "@INGY/@Filter/Manifest",
+            "name" : "@Filter/@Filter/Manifest",
             "version" : "4.300033"
          },
          {
             "class" : "Dist::Zilla::Plugin::TestRelease",
-            "name" : "@INGY/@Filter/TestRelease",
+            "name" : "@Filter/@Filter/TestRelease",
             "version" : "4.300033"
          },
          {
             "class" : "Dist::Zilla::Plugin::ConfirmRelease",
-            "name" : "@INGY/@Filter/ConfirmRelease",
+            "name" : "@Filter/@Filter/ConfirmRelease",
             "version" : "4.300033"
          },
          {
             "class" : "Dist::Zilla::Plugin::UploadToCPAN",
-            "name" : "@INGY/@Filter/UploadToCPAN",
-            "version" : "4.300033"
-         },
-         {
-            "class" : "Dist::Zilla::Plugin::AutoPrereqs",
-            "name" : "@INGY/AutoPrereqs",
+            "name" : "@Filter/@Filter/UploadToCPAN",
             "version" : "4.300033"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::NextVersion",
-            "name" : "@INGY/Git::NextVersion",
+            "name" : "@Filter/Git::NextVersion",
             "version" : "2.012"
          },
          {
             "class" : "Dist::Zilla::Plugin::ExecDir",
-            "name" : "@INGY/ExecDir",
+            "name" : "@Filter/ExecDir",
             "version" : "4.300033"
          },
          {
             "class" : "Dist::Zilla::Plugin::ReadmeFromPod",
-            "name" : "@INGY/ReadmeFromPod",
+            "name" : "@Filter/ReadmeFromPod",
             "version" : "0.18"
          },
          {
             "class" : "Dist::Zilla::Plugin::PkgVersion",
-            "name" : "@INGY/PkgVersion",
+            "name" : "@Filter/PkgVersion",
             "version" : "4.300033"
          },
          {
             "class" : "Dist::Zilla::Plugin::MetaConfig",
-            "name" : "@INGY/MetaConfig",
+            "name" : "@Filter/MetaConfig",
             "version" : "4.300033"
          },
          {
             "class" : "Dist::Zilla::Plugin::MetaJSON",
-            "name" : "@INGY/MetaJSON",
+            "name" : "@Filter/MetaJSON",
             "version" : "4.300033"
          },
          {
             "class" : "Dist::Zilla::Plugin::NextRelease",
-            "name" : "@INGY/NextRelease",
+            "name" : "@Filter/NextRelease",
             "version" : "4.300033"
          },
          {
             "class" : "Dist::Zilla::Plugin::PodSyntaxTests",
-            "name" : "@INGY/PodSyntaxTests",
+            "name" : "@Filter/PodSyntaxTests",
             "version" : "4.300033"
          },
          {
             "class" : "Dist::Zilla::Plugin::Test::Compile",
-            "name" : "@INGY/Test::Compile",
+            "name" : "@Filter/Test::Compile",
             "version" : "2.001"
          },
          {
             "class" : "Dist::Zilla::Plugin::ReportVersions::Tiny",
-            "name" : "@INGY/ReportVersions::Tiny",
+            "name" : "@Filter/ReportVersions::Tiny",
             "version" : "1.08"
          },
          {
@@ -204,43 +196,37 @@
                   "type" : "requires"
                }
             },
-            "name" : "@INGY/TestMoreWithSubtests",
+            "name" : "@Filter/TestMoreWithSubtests",
             "version" : "4.300033"
          },
          {
             "class" : "Dist::Zilla::Plugin::GithubMeta",
-            "name" : "@INGY/GithubMeta",
+            "name" : "@Filter/GithubMeta",
             "version" : "0.28"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::Check",
-            "name" : "@INGY/@Git/Check",
+            "name" : "@Filter/@Git/Check",
             "version" : "2.012"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::Commit",
-            "name" : "@INGY/@Git/Commit",
+            "name" : "@Filter/@Git/Commit",
             "version" : "2.012"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::Tag",
-            "name" : "@INGY/@Git/Tag",
+            "name" : "@Filter/@Git/Tag",
             "version" : "2.012"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::Push",
-            "name" : "@INGY/@Git/Push",
+            "name" : "@Filter/@Git/Push",
             "version" : "2.012"
          },
          {
-            "class" : "Dist::Zilla::Plugin::Prereqs",
-            "config" : {
-               "Dist::Zilla::Plugin::Prereqs" : {
-                  "phase" : "runtime",
-                  "type" : "requires"
-               }
-            },
-            "name" : "Prereqs",
+            "class" : "Dist::Zilla::Plugin::AutoPrereqs",
+            "name" : "AutoPrereqs",
             "version" : "4.300033"
          },
          {

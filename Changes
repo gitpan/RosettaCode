@@ -1,5 +1,10 @@
 # Revision history for RosettaCode
 ---
+version: 0.0.4
+date:    Fri Apr 12 12:16:56 PDT 2013
+changes:
+- Fix dzil dist.ini so that installation works properly.
+---
 version: 0.0.3
 date:    Thu Apr 11 13:22:54 PDT 2013
 changes:

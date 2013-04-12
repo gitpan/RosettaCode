@@ -48,20 +48,17 @@ sub pmver {
     return sprintf('%-45s => %-10s%-15s%s', $module, $pmver, $wanted, "\n");
 }
 
-eval { $v .= pmver('App::Cmd','0.318') };
 eval { $v .= pmver('App::Cmd::Setup','any version') };
 eval { $v .= pmver('ExtUtils::MakeMaker','6.30') };
 eval { $v .= pmver('File::Find','any version') };
 eval { $v .= pmver('File::Temp','any version') };
-eval { $v .= pmver('HTTP::Request','6.00') };
-eval { $v .= pmver('IO::All','0.46') };
-eval { $v .= pmver('MediaWiki::Bot','5.005005') };
-eval { $v .= pmver('Mo','0.33') };
+eval { $v .= pmver('IO::All','any version') };
+eval { $v .= pmver('MediaWiki::Bot','any version') };
+eval { $v .= pmver('Mo','any version') };
 eval { $v .= pmver('Module::Pluggable','any version') };
-eval { $v .= pmver('RosettaCode::Command','any version') };
 eval { $v .= pmver('Test::More','0.96') };
 eval { $v .= pmver('Test::Pod','1.41') };
-eval { $v .= pmver('YAML::XS','0.41') };
+eval { $v .= pmver('YAML::XS','any version') };
 eval { $v .= pmver('constant','any version') };
 eval { $v .= pmver('strict','any version') };
 eval { $v .= pmver('utf8','any version') };

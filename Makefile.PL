@@ -23,15 +23,12 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "RosettaCode",
   "PREREQ_PM" => {
-    "App::Cmd" => "0.318",
     "App::Cmd::Setup" => 0,
-    "HTTP::Request" => "6.00",
-    "IO::All" => "0.46",
-    "MediaWiki::Bot" => "5.005005",
-    "Mo" => "0.33",
+    "IO::All" => 0,
+    "MediaWiki::Bot" => 0,
+    "Mo" => 0,
     "Module::Pluggable" => 0,
-    "RosettaCode::Command" => 0,
-    "YAML::XS" => "0.41",
+    "YAML::XS" => 0,
     "constant" => 0,
     "utf8" => 0
   },
@@ -42,7 +39,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.0.3",
+  "VERSION" => "0.0.4",
   "test" => {
     "TESTS" => "t/*.t"
   }
