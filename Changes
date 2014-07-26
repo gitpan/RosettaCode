@@ -1,26 +1,18 @@
-# Revision history for RosettaCode
----
-version: 0.0.5
-date:    Fri Apr 12 14:21:33 PDT 2013
-changes:
-- Change RosettaCode.git to RosettaCodeData.git
----
-version: 0.0.4
-date:    Fri Apr 12 12:16:56 PDT 2013
-changes:
-- Fix dzil dist.ini so that installation works properly.
----
-version: 0.0.3
-date:    Thu Apr 11 13:22:54 PDT 2013
-changes:
-- Get bin/rosettacode into the dist.
----
-version: 0.0.2
-date:    Thu Apr 11 12:27:55 PDT 2013
-changes:
-- Initial release
----
-version: 0.0.1
-date:    Thu Apr 11 11:16:25 PDT 2013
-changes:
-- Initial release
+0.0.6 Sat Jul 26 11:58:04 PDT 2014
+ - Switch to Zilla::Dist
+
+0.0.5 Fri Apr 12 14:21:33 PDT 2013
+ - Change RosettaCode.git to RosettaCodeData.git
+
+0.0.4 Fri Apr 12 12:16:56 PDT 2013
+ - Fix dzil dist.ini so that installation works properly.
+
+0.0.3 Thu Apr 11 13:22:54 PDT 2013
+ - Get bin/rosettacode into the dist.
+
+0.0.2 Thu Apr 11 12:27:55 PDT 2013
+ - Initial release
+
+0.0.1 Thu Apr 11 11:16:25 PDT 2013
+ - Initial release
+
