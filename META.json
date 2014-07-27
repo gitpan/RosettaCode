@@ -38,6 +38,7 @@
             "IO::All" : "0",
             "MediaWiki::Bot" : "0",
             "Mo" : "0",
+            "Mo::xxx" : "0",
             "Module::Pluggable" : "0",
             "YAML::XS" : "0",
             "perl" : "v5.8.1"
@@ -56,6 +57,6 @@
          "web" : "https://github.com/ingydotnet/rosettacode-pm"
       }
    },
-   "version" : "0.0.6"
+   "version" : "0.0.7"
 }
 

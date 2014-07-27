@@ -26,10 +26,11 @@ my %WriteMakefileArgs = (
     "IO::All" => 0,
     "MediaWiki::Bot" => 0,
     "Mo" => 0,
+    "Mo::xxx" => 0,
     "Module::Pluggable" => 0,
     "YAML::XS" => 0
   },
-  "VERSION" => "0.0.6",
+  "VERSION" => "0.0.7",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -41,6 +42,7 @@ my %FallbackPrereqs = (
   "IO::All" => 0,
   "MediaWiki::Bot" => 0,
   "Mo" => 0,
+  "Mo::xxx" => 0,
   "Module::Pluggable" => 0,
   "YAML::XS" => 0
 );

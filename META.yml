@@ -23,6 +23,7 @@ requires:
   IO::All: '0'
   MediaWiki::Bot: '0'
   Mo: '0'
+  Mo::xxx: '0'
   Module::Pluggable: '0'
   YAML::XS: '0'
   perl: v5.8.1
@@ -30,4 +31,4 @@ resources:
   bugtracker: https://github.com/ingydotnet/rosettacode-pm/issues
   homepage: https://github.com/ingydotnet/rosettacode-pm
   repository: https://github.com/ingydotnet/rosettacode-pm.git
-version: 0.0.6
+version: 0.0.7
