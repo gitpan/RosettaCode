@@ -31,4 +31,4 @@ resources:
   bugtracker: https://github.com/ingydotnet/rosettacode-pm/issues
   homepage: https://github.com/ingydotnet/rosettacode-pm
   repository: https://github.com/ingydotnet/rosettacode-pm.git
-version: 0.0.8
+version: 0.0.9
