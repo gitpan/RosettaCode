@@ -30,7 +30,7 @@ my %WriteMakefileArgs = (
     "Module::Pluggable" => 0,
     "YAML::XS" => 0
   },
-  "VERSION" => "0.0.9",
+  "VERSION" => "0.0.10",
   "test" => {
     "TESTS" => "t/*.t"
   }
