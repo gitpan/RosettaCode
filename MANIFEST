@@ -10,5 +10,4 @@ README
 bin/rosettacode
 lib/RosettaCode.pm
 lib/RosettaCode.pod
-t/000-compile-modules.t
 t/release-pod-syntax.t
