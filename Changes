@@ -1,3 +1,6 @@
+0.0.11 Fri Aug 15 20:37:18 PDT 2014
+ - Add t/000-compile-modules.t
+
 0.0.10 Fri Aug  8 12:56:13 PDT 2014
  - Switch hashbang to '#!/usr/bin/env perl'
 
